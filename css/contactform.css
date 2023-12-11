@@ -1,0 +1,100 @@
+/*STYLE SHEET FOR contact-page.HTML*/
+
+/* RESET */
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav {			
+    background-color: black;
+    font-family: 'Inconsolata' monospace; 
+}
+
+body{
+    margin: 0;
+}
+
+ ul { 
+    position: relative;
+    list-style-type: none; 
+    font-size: 20px;
+    text-align: center;
+    margin: 0; 
+    padding: 0; 
+    height: 25%; 
+    font-style: normal;
+    font-family: 'Inconsolata', monospace; 
+
+    } 
+
+li {
+    background-color: black;
+    color: lawngreen;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: capitalize; 
+    font-family: 'Inconsolata', monospace;    
+}
+
+.nav-text {
+    border: 1px solid lawngreen;
+    border-radius: 15px;
+}
+
+nav, ul, li:first-child {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+}
+
+li,
+a:link, a:visited {
+    color: lawngreen;
+    text-decoration: none;
+}
+
+div{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    background-color: white;
+    height: 460px;
+    padding-bottom: 10px;
+    
+}
+
+.footer{
+     position: relative; 
+    bottom:0;
+    height: 100px
+}
+
+.footer,
+ul{
+    text-align: center;
+    background-color: black;
+    font-family: 'Inconsolata', monospace; 
+}
+
+.button{
+    position: relative;
+    object-position: center;
+    background-color: black;
+    margin-bottom: 0;
+    height: 100px;    
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: black;
+    border: none;
+    color: lawngreen;
+    padding: 10px 22px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: "Inconsolata";
+    font-size: 15px;
+    border-radius: 10px;
+}
